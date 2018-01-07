@@ -302,11 +302,11 @@ service InputEventFind /vendor/bin/InputEventFind
     class main
     oneshot
 
-service ssr_setup /system/bin/ssr_setup
+service ssr_setup /vendor/bin/ssr_setup
     oneshot
     disabled
 
-service ss_ramdump /system/bin/subsystem_ramdump
+service ss_ramdump /vendor/bin/subsystem_ramdump
     class main
     user system
     group system
