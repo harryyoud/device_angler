@@ -59,4 +59,4 @@ setup_vendor "$DEVICE" "$VENDOR" "$REPO_ROOT"
 # Extract the device specific files that always occur in /system
 extract "$MY_DIR/lineage-proprietary-blobs.txt" "$SRC"
 
-"$MY_DIR"/setup-makefiles.sh
+"$MY_DIR"/setup-makefiles.sh true
